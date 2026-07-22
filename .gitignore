@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Videos
+assets/videos/*.mp4
+assets/videos/*.mov
+assets/videos/*.MP4
+assets/videos/*.MOV
