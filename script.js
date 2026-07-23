@@ -54,12 +54,15 @@ const projectsData = {
   reelsXl: {
     title: 'Instagram Rells - X-Camp',
     media:  [
+      { type: 'video', src: 'assets/proyek/reelsXL/23.MP4' },
+      { type: 'video', src: 'assets/proyek/reelsXL/24.MP4' },
+      { type: 'video', src: 'assets/proyek/reelsXL/25.MP4' },
+      { type: 'video', src: 'assets/proyek/reelsXL/26.MP4' },
       { type: 'image', src: 'assets/proyek/reelsXL/1.jpg' },
       { type: 'image', src: 'assets/proyek/reelsXL/2.PNG' },
       { type: 'image', src: 'assets/proyek/reelsXL/33.jpg' },
       { type: 'image', src: 'assets/proyek/reelsXL/44.jpg' },
-      { type: 'image', src: 'assets/proyek/reelsXL/55.jpg' },
-      { type: 'image', src: 'assets/proyek/reelsXL/66.jpg' }
+      { type: 'image', src: 'assets/proyek/reelsXL/55.jpg' }
     ]
   },
   igMaxtion: {
@@ -73,18 +76,28 @@ const projectsData = {
       { type: 'image', src: 'assets/proyek/ig-maxtion/7.jpg' }
     ]
   },
-  commercialVideo: {
-    title: 'Commercial Video',
+  evanescent: {
+    title: 'Instagram Klien — EVANESCENT',
     media: [
-      { type: 'video', src: 'assets/videos/2w.mp4' },
-      { type: 'video', src: 'assets/videos/4r.mp4' }
+      { type: 'video', src: 'assets/proyek/evanescent/1345.mp4' },
+      { type: 'image', src: 'assets/proyek/evanescent/IMG_2187.jpg' },
+      { type: 'image', src: 'assets/proyek/evanescent/1.PNG' },
+      { type: 'image', src: 'assets/proyek/evanescent/2,PNG' },
+      { type: 'image', src: 'assets/proyek/evanescent/3.jpg' },
+      { type: 'image', src: 'assets/proyek/evanescent/4.PNG' },
+      { type: 'image', src: 'assets/proyek/evanescent/09.jpg' },
+      { type: 'image', src: 'assets/proyek/evanescent/23.jpg' },
+      { type: 'image', src: 'assets/proyek/evanescent/44.jpg' },
+      { type: 'image', src: 'assets/proyek/evanescent/57.jpg' },
+      { type: 'image', src: 'assets/proyek/evanescent/111.jpg' },
+      { type: 'image', src: 'assets/proyek/evanescent/112.jpg' },
+      { type: 'image', src: 'assets/proyek/evanescent/234.jpg' },
+      { type: 'image', src: 'assets/proyek/evanescent/278.jpg' }
     ]
   },
   productContent: {
     title: 'AI & IoT Product Content',
     media: [
-      { type: 'image', src: 'assets/proyek/productcontent/1.jpg' },
-      { type: 'image', src: 'assets/proyek/productcontent/2.jpg' },
       { type: 'image', src: 'assets/proyek/productcontent/3.jpg' },
       { type: 'image', src: 'assets/proyek/productcontent/4.jpg' },
       { type: 'image', src: 'assets/proyek/productcontent/5.jpg' },
@@ -114,7 +127,30 @@ const projectsData = {
       { type: 'image', src: 'assets/proyek/event-content/12.jpg' }
     
     ]
-  }
+  },
+  merchandiseDesign: {
+    title: 'Merchandise & Corporate Apparel Design',
+    media: [
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/1.jpg' },
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/2.jpg' },
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/3.jpg' },
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/4.jpg' },
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/5.jpg' },
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/6.jpg' },
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/7.jpg' },
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/8.jpg' },
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/9.jpg' },
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/10.jpg' },
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/11.jpg' },
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/12.jpg' },
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/13.jpg' },
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/14.jpg' },
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/15.jpg' },
+      { type: 'image', src: 'assets/proyek/merchandiseDesign/16.jpg' },
+      { type: 'image', src: 'assets/proyek/productcontent/1.jpg' },
+      { type: 'image', src: 'assets/proyek/productcontent/2.jpg' }
+    ]
+  },
 };
 
 const modalEl = document.getElementById('galleryModal');
