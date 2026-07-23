@@ -74,7 +74,7 @@ const projectsData = {
     ]
   },
   commercialVideo: {
-    title: 'Video Komersial',
+    title: 'Commercial Video',
     media: [
       { type: 'video', src: 'assets/videos/2w.mp4' },
       { type: 'video', src: 'assets/videos/4r.mp4' }
