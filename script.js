@@ -218,3 +218,13 @@ function closeGallery() {
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closeGallery();
 });
+
+// Allow project cards to open gallery using keyboard
+document.querySelectorAll('.project-card[role="button"]').forEach(card => {
+  card.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      card.click();
+    }
+  });
+});
