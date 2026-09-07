@@ -38,6 +38,33 @@ revealTargets.forEach(el => {
 // 4. Boleh tambah baris sebanyak yang kamu mau per proyek.
 // =========================================================
 const projectsData = {
+  data: {
+    title: 'Tourist Visit Forecasting Using ARIMAX',
+    media: [
+      { type: 'image', src: 'assets/AI/DATA.1.png' },
+      { type: 'image', src: 'assets/AI/DATA.2.png' },
+      { type: 'image', src: 'assets/AI/DATA.3.png' },
+      { type: 'image', src: 'assets/AI/DATA.4.png' },
+      { type: 'image', src: 'assets/AI/DATA.5.png' }
+    ]
+  },
+  dashboard: {
+    title: 'FIGMA UI/UX PROJECTS',
+    media: [
+      { type: 'image', src: 'assets/AI/Dashboard.png' },
+      { type: 'image', src: 'assets/AI/konversi.png' },
+      { type: 'image', src: 'assets/AI/pet.png' },
+      { type: 'image', src: 'assets/AI/pet2.png' },
+      { type: 'image', src: 'assets/AI/pet3.png' },
+      { type: 'image', src: 'assets/AI/pet4.png' },
+      { type: 'image', src: 'assets/AI/pet5.png' },
+      { type: 'image', src: 'assets/AI/sk1.png' },
+      { type: 'image', src: 'assets/AI/sk2.png' },
+      { type: 'image', src: 'assets/AI/sk3.png' },
+      { type: 'image', src: 'assets/AI/sk4.png' },
+      { type: 'image', src: 'assets/AI/sk5.png' }
+    ]
+  },
   igXlsmart: {
     title: 'Social Media Management — Instagram @xlsmart_iot',
     media: [
